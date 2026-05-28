@@ -121,7 +121,7 @@ npm start
 
 ## Demonstration
 
- ### **Main page** : exploration d'acceuil (random suggestions and search history) 
+ ### **Main page** : exploration d'acceuil 
 <img width="1916" height="848" alt="image" src="https://github.com/user-attachments/assets/5f58b46c-4244-43d9-a531-86a005c23602" />
 <img width="1646" height="561" alt="image" src="https://github.com/user-attachments/assets/9045d2d9-54b9-4544-9153-568f83bb9903" />
 
