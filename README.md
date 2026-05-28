@@ -2,8 +2,8 @@
 
 
 
-> **Auteur** : **Aya Chiba**  
-> *MatchMuse est une plateforme web full-stack moderne exploitant l'intelligence sémantique des modèles de langage de grande taille (LLM de Google DeepMind) pour concevoir une curation artistique et culturelle d'affinité sur-mesure couvrant le Cinéma, la Littérature et la Musique.*
+>  ### **Auteur** : **Aya Chiba**  
+> *MatchMuse est une plateforme web full-stack moderne exploitant l'intelligence sémantique des modèles de langage de grande taille pour concevoir une curation artistique et culturelle d'affinité sur-mesure couvrant le Cinéma, la Littérature et la Musique.*
 
 ---
 
@@ -15,9 +15,9 @@
 4. [Stack technique & Architecture](#-stack-technique--architecture)
 5. [Pour commencer (Installation locale)](#-pour-commencer-installation-locale)
 6. [Guide d'utilisation](#%EF%B8%8F-guide-dutilisation)
-7. [Aide & Support](#%EF%B8%8F-aide--support)
-8. [Auteurs & Contribution](#-auteurs--contribution)
-9. [Licence](#-licence)
+7. [demonstration](#%EF%B8%8F-demonstration)
+
+
 
 ---
 
@@ -65,7 +65,7 @@ L'application est structurée selon un modèle **Full-Stack (Client/Serveur)** m
 
 ---
 
-## 🚀 Pour commencer (Installation locale)
+## Installation locale
 
 Suivez ces étapes simples pour démarrer le projet sur votre ordinateur :
 
@@ -91,8 +91,7 @@ Pour que la génération fonctionne, le serveur Express requiert une clé API Go
    ```env
    GEMINI_API_KEY="AIzaSyC..." # Remplacer par votre clé API réelle
    ```
-   > ⚠️ **Attention** : Ne commitez jamais cette clé sur un dépôt public. Le fichier `.gitignore` est déjà configuré pour masquer le fichier `.env`.
-
+   
 ### 4. Démarrage de l'application
 Démarrez le serveur de développement unifié :
 ```bash
@@ -120,15 +119,37 @@ npm start
 
 ---
 
-## 🛠️ Aide & Support
+## Demonstration
 
-Si vous rencontrez des difficultés lors du paramétrage ou de la compilation du projet :
-*   **Problème de connexion API** : Vérifiez que votre variable `GEMINI_API_KEY` dans votre fichier `.env` est valide et active dans la région d'exécution.
-*   **Port de démarrage** : Le serveur utilise par défaut le port `3000`. Assurez-vous qu'elle n'est pas déjà occupée par une autre ressource locale.
-*   **Rapport de bugs** : Veuillez soumettre une *Issuer* ou poser des questions directement à l'auteur pour toute clarification.
+ ### **Main page** : exploration d'acceuil (random suggestions and search history) 
+<img width="1916" height="848" alt="image" src="https://github.com/user-attachments/assets/5f58b46c-4244-43d9-a531-86a005c23602" />
+<img width="1646" height="561" alt="image" src="https://github.com/user-attachments/assets/9045d2d9-54b9-4544-9153-568f83bb9903" />
 
----
+ ### **The recommendation system: 3 categories (films, books, music)
+
+  ### **exemple: recommendation des filmes**
+ ### 1. Formulaire de configuration du profil
+on va tester la categorie Cinéma ( toute la demonstration sera disponible dans video demo ) 
+<img width="1688" height="829" alt="image" src="https://github.com/user-attachments/assets/3507e203-02e2-40ea-8736-877eaf3604fc" />
+
+### 2. Suggestions personnalisées générées par l'IA
+                                                  
+ <img width="1802" height="861" alt="image" src="https://github.com/user-attachments/assets/2cfc850c-b9ce-4c3c-b39a-b41b22fe08d8" />
+
+
+ ### **main page updated**
+<img width="1778" height="826" alt="image" src="https://github.com/user-attachments/assets/aecd9ce6-12e4-4645-90f2-6b19d046139e" />
 
 
 
-Ce proet est distribué sous licence open-source **Apache-2.0**. Pour plus d'informations, veuillez lire les termes de sa distribution.
+
+
+
+
+
+
+
+
+
+
+
