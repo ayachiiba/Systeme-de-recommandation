@@ -1,6 +1,6 @@
 {
   "name": "MatchMuse - Recommandation Sémantique Intelligente",
-  "description": "Un service de curation et synesthésie culturelle Netflix-style pour films, livres et musiques.",
+  "description": "Un service de recommandation et synesthésie culturelle pour films, livres et musiques.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
